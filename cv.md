@@ -22,6 +22,8 @@ My goal is study of modern web development tools.
 ## Skills
 * HTML
 * CSS
+* Java
+* SQL
 
 ***
 

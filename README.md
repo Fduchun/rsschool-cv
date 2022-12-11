@@ -1,1 +1,1 @@
-# rsschool-cv
+https://fduchun.github.io/rsschool-cv/cv
