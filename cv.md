@@ -73,7 +73,7 @@ SQL Server   |Junior     | 1
 ***
 
 ## Education
-1999-2005 Belarusian National Technical University, Faculty of Information Technology and Robotics, Information technology software
+1999-2004 Belarusian National Technical University, Faculty of Information Technology and Robotics, Information technology software
 
 ***
 
