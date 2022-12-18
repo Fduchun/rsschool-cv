@@ -1,5 +1,71 @@
+  @font-face {
+	font-family: 'Lora';
+	src: url("assets/fonts/Lora-Regular.ttf");
+	font-weight: 100;
+  }
+  @font-face {
+	font-family: 'Merriweather';
+	src: url("assets/fonts/Merriweather-Bold.ttf");
+	font-weight: 300;
+  }
+
+  body {
+	font-family: 'Lora';
+	min-height: 100vh;
+	margin: 0; 
+	padding: 0;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+  }
+
+  h1 {
+	font-family: 'Merriweather';
+  }
+
+  h2 {
+	font-family: 'Merriweather';
+  }  
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .nav-list {
+	display: flex;
+	justify-content: left;
+	align-items:flex-start;
+	list-style: none;
+  }
+
+  .nav-link {
+	padding: 0 12px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #304133;
+	transition: color 0.5s;	
+  }
+
+  .nav-link:hover {
+	color: #513535;
+	font-weight: bold;
+  }
+
+  html {
+	scroll-behavior: smooth; 
+  }
+
+  li {
+	line-height: 25px;
+  }
+
 .table {
-	width: 20%;
+	width: 50%;
 	margin-bottom: 20px;
 	border: 1px solid #dddddd;
 	border-collapse: collapse; 
@@ -13,4 +79,14 @@
 .table td {
 	border: 1px solid #dddddd;
 	padding: 5px;
+	text-align: center;
+}
+
+.table-footer {
+	width: 40%;
+	margin: 0px;
+}
+
+.table-footer td{
+	padding-right: 30px;
 }
